@@ -14,11 +14,10 @@ let about_more = document.querySelector('#about-more')
 about_btn.onclick = () => {
     if (about_more.style.display === "none") {
         about_more.style.display = "block";
-      } else {
+    } else {
         about_more.style.display = "none";
-      }
+    }
 }
-
 
 
 
